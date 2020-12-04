@@ -1,0 +1,37 @@
+bory {
+    background-color:#E6E6E6;
+    padding-left: 10px;
+}
+
+header {
+    background-color: #BDBDBD;
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    display: inline;
+} 
+
+a {
+    padding-right: 15px;
+}
+
+#pic {
+    padding-left: 25px;
+}
+
+#dat {
+    padding-left: 10px;
+}
+
+#cin {
+    background-color: #D8D8D8;
+}
+
+
+    
+
+

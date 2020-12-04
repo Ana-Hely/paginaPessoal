@@ -1,0 +1,42 @@
+<html lang="pt"> 
+
+    <head>
+        <title>Entre em Contato</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+
+    <body>
+        <form action="http://localhosti:4000/programa.php" method="GET">
+            <p>Insira os seus dados abaixo</p>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail">
+            </div>
+            <div>
+                <label for="fone">Fone:</label>
+                <input type="text" id="fone">
+            </div>
+            <div>
+                <label for="motivos">Motivo:</label>
+                <select name="motivos" id="motivos">
+                    <option value="op0"></option>
+                    <option value="op1">Gostei de você</option>
+                    <option value="op2">Oferecer vaga de emprego</option>
+                    <option value="op3">Preciso de ajuda</option>
+                    <option value="op4">Outros</option>
+                  </select>
+            </div>
+            <div>
+                <label for="msg">Comentarios gerais:</label>
+                <textarea id="msg"></textarea>        
+            </div>
+            <div class="button"> 
+                <button type="submit" aria-label="Enviar">Enviar mensagem</button>
+            </div>
+        </form>
+    </body>
+</html>
